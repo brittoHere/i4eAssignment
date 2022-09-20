@@ -1,0 +1,26 @@
+.searchbody__container{
+    text-align: center;
+}
+
+.show__more{
+    text-align: center;
+    margin-top:12px;
+}
+
+.soart__container{
+    text-align: end;
+}
+
+.price__btn-viewmore{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 991px){
+    .price__btn-viewmore{
+        display: block;
+        justify-content: none;
+    }
+}

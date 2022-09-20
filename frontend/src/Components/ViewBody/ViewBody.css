@@ -1,0 +1,40 @@
+.view__container{
+    display: flex;
+    margin: 15px;
+}
+
+.image__container{
+    margin-top:12px;
+}
+
+.cars__detail-container{
+    margin-left: 5%;
+}
+
+.img__width{
+    width:50vw;
+}
+
+.price__title{
+    color:#5CB8E4;
+    font-size: 45px;
+}
+
+.car__name{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.flex__description{
+    /* display: flex; */
+}
+
+@media (max-width: 991px){
+    .view__container{
+        display: block;
+    }
+
+    .img__width{
+        width:100%;
+    }
+}

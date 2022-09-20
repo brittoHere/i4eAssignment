@@ -1,0 +1,40 @@
+.header__searchbar__brandname{
+    display:flex;
+    justify-content:space-around;
+    background-color:#AAC4FF;
+}
+
+.menu__icon{
+    color:#fff;
+    cursor:pointer;
+   
+}
+
+
+.bars{
+    font-size: 35px;
+   
+}
+
+.brand__title{
+    color:#fff;
+}
+
+.search__field{
+    color:#fff;
+    border:1px solid #fff;
+}
+
+@media (max-width:991px){
+    .bars{
+        font-size:25px;
+
+    }
+
+   
+}
+
+
+.disable__bars{
+    display:none;
+}
